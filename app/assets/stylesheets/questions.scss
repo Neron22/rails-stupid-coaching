@@ -1,0 +1,121 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background: rgb(200, 200, 200);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.title, .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+form input:nth-child(1) {
+  color: grey;
+  background-color: rgb(251, 251, 251);
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+form input:nth-child(2) {
+  background-color: rgb(47, 121, 160);
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.question-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.stupid-coach {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(180, 180, 180);
+  width: 600px;
+  height: 80vh;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 10px;
+
+  .coaching {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(180, 180, 180);
+    color: grey;
+    width: 100%;
+    text-align: center;
+    .you {
+      background-color: rgb(180, 180, 180);
+      color: white;
+      padding-top: 10px;
+      width: 100%;
+      height: auto;
+      border: 2px solid rgb(255, 255, 255);
+    }
+    .coach {
+      background-color: rgb(180, 180, 180);
+      color: white;
+      padding-top: 10px;
+      width: 100%;
+      height: auto;
+      border: 2px solid rgb(255, 255, 255);
+    }
+  }
+  a {
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+
+    &:hover {
+      color: rgb(208, 208, 208);
+    }
+  }
+}
